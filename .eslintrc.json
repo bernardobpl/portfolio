@@ -1,0 +1,14 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ]
+  }
+}
